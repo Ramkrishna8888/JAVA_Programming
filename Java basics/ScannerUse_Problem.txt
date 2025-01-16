@@ -1,0 +1,20 @@
+ini ScannerUse code when I was trying to take input with nextLine() it was showin error So the ellaboration is :
+
+Jab tum Scanner ka use karte ho aur nextInt() ya nextDouble() methods call karte ho, toh yeh sirf input ke number part ko padhta hai. Lekin jab tum "Enter" press karte ho, toh ek \n (newline character) input buffer me bacha rehta hai.
+
+Baad me jab tum nextLine() call karte ho, toh yeh leftover newline (\n) ko read kar leta hai, isliye lagta hai ki nextLine() kaam nahi kar raha.
+
+Solution ka Tarika
+Tumhe bas input buffer me bacha hua \n character clear karna hai nextLine() use karne se pehle.
+
+Option : Ek extra nextLine() add karo
+Jaha tum nextInt() use karte ho, waha ek sc.nextLine() add karo.
+
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter the roll no. ");
+int roll = sc.nextInt();  // Sirf number padhta hai
+sc.nextLine();  // Buffer me bacha `\n` clear kar diya
+
+System.out.println("Enter the name");
+String name = sc.nextLine();  // Ab yeh properly input lega
