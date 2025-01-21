@@ -30,7 +30,7 @@ public class vowel_switch {
 		   System.out.println(inp+" is a vowel");
 		   break;
 	   default:
-		   System.out.println(inp+" is not a vowel");
+		   System.out.println(inp+" is a consonant or else but not vowel");
 	   }
 	   
    }
