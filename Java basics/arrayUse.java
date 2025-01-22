@@ -12,10 +12,16 @@ public class displayArray {
     	 {
     		 arr[i]=sc.nextInt();
     	 }
-      for(i=0; i<size; i++)
+    	 System.out.println("Printing elements using normal For loop");
+    	 for(i=0; i<size; i++)
     	 {
     		 System.out.println(arr[i]+" ");
     	 }
-    	 System.out.println("Size of array is : "+arr.length);  // use of length member
+    	 System.out.println("Printing elements using For each loop");
+    	 for(int x : arr)
+    	 {
+    		 System.out.println(x+" ");
+    	 }
+    	 System.out.println("Size of array is : "+arr.length); // use of length memener to know the size of array
      }
 }
