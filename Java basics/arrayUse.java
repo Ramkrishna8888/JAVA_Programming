@@ -12,9 +12,10 @@ public class displayArray {
     	 {
     		 arr[i]=sc.nextInt();
     	 }
-    	 for(i=0; i<size; i++)
+      for(i=0; i<size; i++)
     	 {
-    		 System.out.print(arr[i]+" ");
+    		 System.out.println(arr[i]+" ");
     	 }
+    	 System.out.println("Size of array is : "+arr.length);  // use of length member
      }
 }
