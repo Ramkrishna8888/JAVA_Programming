@@ -1,15 +1,16 @@
 // Constructor Syntax 
 import java.util.*;
 class Sample{
-     int a,b;
+     int i,j;
 	Sample(int i, int j)
 	{
-		a = i;
-		b = j;
+       // when your data member and arguments have the same name then you can use this keyword so that compiler can understand
+		this.i= i;
+		this.j = j;
 	}
 	void disp()
 	{
-		System.out.println("value of a "+a+" and value of b is "+b);
+		System.out.println("value of i "+i+" and value of j is "+j);
 	}
 }
 public class constructor1 {
