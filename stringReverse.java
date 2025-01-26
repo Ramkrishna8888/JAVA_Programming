@@ -1,4 +1,4 @@
-// basic questions before diving into string tricky questions
+// basic question to understand before diving into string tricky questions
 import java.util.*;
 class Main {
     public static void main(String[] args) {
