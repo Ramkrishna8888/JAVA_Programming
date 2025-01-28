@@ -27,5 +27,8 @@ public class static1 {
     	obj2.temp();
     	obj2.temp2();
     	obj2.display();
+       // you can declare value of static variable like this as well
+    	Myclass.n=100;
+    	obj2.display();
     }
    }
