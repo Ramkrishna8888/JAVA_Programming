@@ -64,6 +64,8 @@ public class Contruct {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Student's Id: ");
 		int studentId = sc.nextInt();
+
+		sc.nextLine();
 		
 		System.out.println("Enter Student's Name: ");
 		String studentName = sc.nextLine();
