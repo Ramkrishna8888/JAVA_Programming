@@ -1,0 +1,6 @@
+(?=.*[a-z])	Ensures at least one lowercase letter (a-z) is present.
+(?=.*[A-Z])	Ensures at least one uppercase letter (A-Z) is present.
+(?=.*[@$*#])	Ensures at least one special character (@, $, *, #) is present.
+[a-zA-Z0-9@$*#]	Defines the allowed characters: lowercase letters, uppercase letters, digits, and the given special characters.
+{6,12}	Ensures the length is between 6 and 12 characters.
+$	Marks the end of the string to ensure the whole input is checked.
