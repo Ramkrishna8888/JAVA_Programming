@@ -10,7 +10,7 @@ class Product
 	   this.price=price;
    }
    Product(){}; // when your parameterized constructor is created then it's a good practice to create a default contructor
-	   public String toString() { // if you will not create a toString method then you'll get class name and hashcode as output
+	   public String toString() { // if you will not override a toString method then you'll get class name and hashcode as output
 		   return pid+" "+pname+" "+price; // because it'll extend object class of java implicitly 
 	   }
    }
