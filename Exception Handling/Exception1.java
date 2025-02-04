@@ -20,8 +20,9 @@ public class Exception1 {
 		catch(RuntimeException e) {
 			System.err.println("Runtime exception occured");
 		}
-		catch(Exception e) {
-			System.out.println("Exception occured");
+		catch(Exception e) { // if you'll write Exception e first then other exceptions start showing error because It's a Superclass and it's a rule
+			             // if you're declaring the Superclass of exception then no need to write other subclass exceptions
+			System.out.println("Exception occured"); 
 		}
 
 	}
