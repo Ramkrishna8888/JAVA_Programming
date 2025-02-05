@@ -11,7 +11,7 @@ public class IterateMapDemo {
 		
 		System.out.println(hm); 
 		
-		// Now we want to iterate Key seprately
+		// Now we want to iterate Key and Value seprately
 		
 		Set<String> keys = hm.keySet();
 		for(String i : keys) {
