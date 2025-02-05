@@ -4,7 +4,8 @@ import java.util.*;
 public class RemoveDuplicate {
 
 	public static void main(String[] args) {
-		  List<Integer> mobileno = new ArrayList<Integer>();  
+		  List<Integer> mobileno = new ArrayList<Integer>();  // Why used List as a reference ? check the next line for answer
+		  // ArrayList<Integer> mobileno = new ArrayList<Integer>(); we can do this as well but it's always suggested to use base Interface reference should refer to subclass objects 
           mobileno.add(1111);
           mobileno.add(2222);
           mobileno.add(3333);
