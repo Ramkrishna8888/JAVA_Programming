@@ -1,0 +1,5 @@
+Collections.sort(list)	Sorts a list in ascending order.
+Collections.reverse(list)	Reverses the order of elements in a list.
+Collections.shuffle(list)	Randomly shuffles elements in a list.
+Collections.max(list)	Returns the maximum element in a list.
+Collections.min(list)	Returns the minimum element in a list.
