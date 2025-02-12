@@ -1,0 +1,17 @@
+2. Unchecked Exceptions 
+Ye exceptions runtime mein aate hain aur inhe handle karna optional hota hai.
+
+ArithmeticException: Mathematical operations mein errors, jaise divide by zero.
+Example: int result = 10 / 0;
+NullPointerException: Jab aap kisi null object reference ko access karte hain.
+Example: String str = null; str.length();
+ArrayIndexOutOfBoundsException: Jab aap array ke invalid index ko access karte hain.
+Example: int[] arr = new int[5]; arr[10] = 1;
+ClassCastException: Jab incorrect type casting ki jati hai.
+Example: Object obj = new String("Hello"); Integer num = (Integer) obj;
+IllegalArgumentException: Jab invalid argument diya jata hai method mein.
+Example: Thread.sleep(-1000);
+IndexOutOfBoundsException: Lists, strings, ya arrays mein invalid index pe access.
+Example: String s = "abc"; s.charAt(5);
+NumberFormatException: Jab aap string ko number mein convert karte ho, aur wo valid number nahi hota.
+Example: int num = Integer.parseInt("abc");
