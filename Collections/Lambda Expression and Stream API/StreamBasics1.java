@@ -24,12 +24,16 @@ public class StreamMain1 {
 		
 		// Stream approach
 		
-		System.out.println("\n\nUsing Stream :");
+		System.out.println("\nUsing Stream :");
 		
 		Stream<Integer> stream1 = list3.stream();
 		List<Integer> EvenNewList = stream1.filter(even -> even%2==0).collect(Collectors.toList());
-		
 		System.out.println(EvenNewList);
+		
+		System.out.println("\n Chaining (Making it more compact)");
+		
+	List<Integer> EvenNewList2 =  list3.stream().filter(num -> num%2==0).collect(Collectors.toList());
+		System.out.println(EvenNewList2);
 		
 		
 		
