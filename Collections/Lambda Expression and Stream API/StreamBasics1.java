@@ -34,7 +34,12 @@ public class StreamMain1 {
 		
 	List<Integer> EvenNewList2 =  list3.stream().filter(num -> num%2==0).collect(Collectors.toList());
 		System.out.println(EvenNewList2);
+
+
+		System.out.println("\n Finding numbers that are greater than 5");
 		
+	List<Integer> ListGreater = list3.stream().filter(dig -> dig>=4).collect(Collectors.toList());
+		System.out.println(ListGreater);	
 		
 		
 	}
