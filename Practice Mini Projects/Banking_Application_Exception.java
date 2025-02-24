@@ -1,5 +1,7 @@
 import java.util.*;
 
+// practice custom exceptions
+
 class InvalidCredentialsException extends Exception {
     InvalidCredentialsException(String excep) {
         super(excep);
