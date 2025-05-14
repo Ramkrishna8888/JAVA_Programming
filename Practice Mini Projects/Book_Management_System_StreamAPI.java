@@ -191,6 +191,19 @@ public class libraryManagement {
 		System.out.println("Total books: "+itr.next());
 		System.out.println("Total price: "+String.format("%.2f", Double.parseDouble(itr.next()))); // upto two decimal points only
 		System.out.println("Total quantity: "+itr.next());
+
+		// This can also be done if you're not familiar with the Iterator
+		
+		/*
+		 * Stream<String> stream = obj2.generateSummaryReport(list);
+		 * 
+		 * System.out.println("Summary Report:"); List<String> summaryList = stream.collect(Collectors.toList());
+		 * System.out.println("Total books: " + summaryList.get(0));
+		 * System.out.println("Total price: " + String.format("%.2f",
+		 * Double.parseDouble(summaryList.get(1)))); // up to two decimal points only
+		 * System.out.println("Total quantity: " + summaryList.get(2));
+		 */
+		  
 		  
 	}
 
