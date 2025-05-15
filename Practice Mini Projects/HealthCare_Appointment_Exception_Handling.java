@@ -1,3 +1,20 @@
+/*
+Enter patient name:
+Ram
+Enter age:
+25
+Enter phone number:
+9871234567
+Enter insurance ID:
+ABCD1234
+Enter doctor specialization:
+Cardiology
+Enter appointment date/time (yyyy-MM-dd HH:mm):
+2024-07-10 14:30
+
+Appointment scheduled successfully with Dr. Smith (Cardiology) on 10th July 2024 at 2:30 PM.
+*/
+
 package capgemini_practice;
 
 import java.time.LocalDate;
